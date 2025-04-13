@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Ahmat Adoum Assoudi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ahmat Dev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <h1 class="display-4">Développeur Web & Mobile</h1>
+    <p class="lead">Basé au Tchad(Amdjarass</p>
+  </header>
+
+  <section class="container my-5">
+    <h2 class="mb-4">À propos de moi</h2>
+    <p>
+      Je suis un passionné du développement web et mobile, avec de solides compétences en HTML, CSS, JavaScript, PHP, MySQL, et les frameworks modernes comme Bootstrap, Laravel et Flutter.
+    </p>
+  </section>
+
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Projets</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Site e-commerce</h5>
+              <p class="card-text">Un site dynamique complet de vente en ligne avec panier, recherche et gestion des commandes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Application mobile Flutter</h5>
+              <p class="card-text">Application mobile multiplateforme avec interface moderne pour la consultation de services en ligne.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio personnel</h5>
+              <p class="card-text">Un site vitrine moderne pour présenter mes compétences et mes projets professionnels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-5">
+      <div class="container">
+          <h2>Contactez-moi</h2>
+          <form>
+              <div class="mb-3">
+                  <label for="name" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="name" placeholder="Votre nom">
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Votre email">
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+      </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Ahmat Adoum Assoudi - Développeur Web & Mobile</p>
+  </footer>
+</body>
+</html>
